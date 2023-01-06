@@ -1,0 +1,28 @@
+1. Install Rapid API Extension:
+    - Assist testing API directly inside the VS Code.
+
+
+2. Create React Folder:
+    - if error about npm update -> solution: npm cache clean --force
+    - then --> solution: npx create-react-app ./
+    - npm install --legacy-peer-deps
+    - npm start
+
+3/ package.json update: keep track of dependencies
+    - icons-material
+    - emotion react
+    - emotion - styled
+    - axios -> api calls
+    - react-router-dom
+
+4. node-modules: all dependencies add in.
+
+5. Use MUI.com and Material UI:
+    - Google Web icons
+    - Fonts
+    => Use for index.html (public branch)
+
+6. handleSubmit function:
+    - In every React application, if submit the forms -> the application usually reloads the page.
+    - Reloads is default behavior of the browser.
+    ==> e.preventDefault();
